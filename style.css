@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: white;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    height: 80vh;
+    background-image: url(fond-paysage-ete-pour-zoom_52683-41716.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 4em;
+}
+
+.logo{
+    color: purple;
+    display: flex;
+    padding: 50px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 6px;
+    background-color: purple;
+}
